@@ -1,0 +1,45 @@
+@media only screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .principal__filme {
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%), url(../img/minip.jpg);
+    background-size: cover;
+    }
+
+    .principal__titulo {
+        visibility:hidden;
+    }
+
+    .principal__descricao {
+        visibility:hidden;
+    }
+
+    .principal__info {
+        visibility:hidden;
+    }
+
+    .principal__atores {
+        visibility:hidden;
+    }
+    .principal__categoria {
+        visibility:hidden;
+    }
+
+    h4{
+        visibility:hidden;
+    }
+
+    .principal__botao {
+        display: block;
+        width: 200px;
+        margin-top: 5px;
+        
+    }
+}
